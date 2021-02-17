@@ -16,4 +16,17 @@ public add(){
     if(this.number1&& this.number2)
 this.result= this.number1 + this.number2;
 }
+public sub(){
+    if(this.number1&& this.number2)
+this.result= this.number1 - this.number2;
+}
+public mul(){
+    if(this.number1&& this.number2)
+this.result= this.number1 * this.number2;
+}
+public div(){
+    if(this.number1&& this.number2)
+this.result= this.number1 / this.number2;
+}
+
 }
