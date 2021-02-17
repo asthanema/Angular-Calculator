@@ -1,0 +1,31 @@
+<div class='container'>
+	
+	<div class='header'>
+		<h2>Calculator component</h2>
+	</div>
+
+	<div class='grid'>
+		<div class="row">
+			<div class="col-6">
+				<div>
+					<input [(ngModel)]='number1' type="number" placeholder="number">
+				</div>
+				<div>
+					<input [(ngModel)]='number2' type="number" placeholder="number">
+				</div>
+				<div>
+					<button class="button" (click)="add()">Add</button>
+				</div>
+			</div>
+
+			<div class='col-6'>
+				<div class='result'>
+					<span>Result is {{result}}
+						
+					</span>
+				</div>
+			</div>
+		</div>
+    </div>
+
+</div>
